@@ -1,0 +1,12 @@
+name: agent-env
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+      - openai
+      - PyGithub
+      - google-api-python-client
+      - google-auth-httplib2
+      - google-auth-oauthlib
