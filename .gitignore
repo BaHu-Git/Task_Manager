@@ -1,0 +1,21 @@
+# Google OAuth secrets
+credentials.json
+token.json
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environments (optional)
+.env
+.venv/
+venv/
+env/
+
+# PyCharm & local settings
+.idea/
+*.iml
+.vscode/
+
+# macOS
+.DS_Store
