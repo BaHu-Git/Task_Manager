@@ -6,7 +6,12 @@ dependencies:
   - pip
   - pip:
       - openai
-      - PyGithub
+      - python-dotenv
+      - jinja2
+      - requests
       - google-api-python-client
-      - google-auth-httplib2
+      - google-auth
       - google-auth-oauthlib
+      - mcp
+      - uvicorn
+
